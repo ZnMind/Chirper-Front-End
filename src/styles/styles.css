@@ -1,0 +1,35 @@
+body {
+    background-color: lightgray;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container > .container {
+    margin-top: 2rem;
+    border: 2px solid steelblue;
+    background-color: rgb(202, 242, 255);
+}
+
+.form-group {
+    border: 2px solid steelblue;
+    margin-top: 2rem;
+    background-color: rgb(202, 242, 255);
+}
+
+.chirps {
+    border: 1px solid black;
+}
+
+.inputs {
+    display: flex;
+    height: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    float: left;
+    border: 1px solid black;
+    margin-left: 4.66%;
+    margin-right: 4.66%;
+}
